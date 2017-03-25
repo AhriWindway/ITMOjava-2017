@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: /media/sf_dx/itmojava-2017/java-advanced-2017/artifacts/JarImplementorTest.jar
+Main-Class: ru.ifmo.ctddev.zhuchkova.implementor.Implementor
+

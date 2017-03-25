@@ -34,4 +34,4 @@ it:
 gen_jar:
 	jar cvfm implementor.jar src/META-INF/MANIFEST.MF -C out/production ru/ifmo/ctddev/zhuchkova/implementor/Implementor.class
 gen_javadoc:
-	javadoc -author -private -link http://docs.oracle.com/javase/8/docs/api/ -d /media/sf_dx/itmojava-2017/out/production/javadoc /media/sf_dx/itmojava-2017/src/ru/ifmo/ctddev/zhuchkova/implementor/Implementor.java /media/sf_dx/itmojava-2017/java-advanced-2017/java/info/kgeorgiy/java/advanced/implementor/Impler.java /media/sf_dx/itmojava-2017/java-advanced-2017/java/info/kgeorgiy/java/advanced/implementor/JarImpler.java /media/sf_dx/itmojava-2017/java-advanced-2017/java/info/kgeorgiy/java/advanced/implementor/ImplerException.java
+	javadoc -author -private -link http://docs.oracle.com/javase/8/docs/api/ -d out/production/javadoc src/ru/ifmo/ctddev/zhuchkova/implementor/Implementor.java java-advanced-2017/java/info/kgeorgiy/java/advanced/implementor/Impler.java java-advanced-2017/java/info/kgeorgiy/java/advanced/implementor/JarImpler.java java-advanced-2017/java/info/kgeorgiy/java/advanced/implementor/ImplerException.java
